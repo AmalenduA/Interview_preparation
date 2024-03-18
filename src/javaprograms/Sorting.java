@@ -5,7 +5,7 @@ public class Sorting {
 	 public static void main(String[] args) {
 	        int[] arr = {10, 5, 20, 5, 5, 30};
 
-	        // Custom sorting based on the desired order
+	      
 	        for (int i = 0; i < arr.length - 1; i++) {
 	            for (int j = 0; j < arr.length - i - 1; j++) {
 	                if (customCompare(arr[j], arr[j + 1]) > 0) {
@@ -17,7 +17,7 @@ public class Sorting {
 	            }
 	        }
 
-	        // Print the sorted array
+	       
 	        System.out.print("Sorted array: ");
 	        for (int num : arr) {
 	            System.out.print(num + " ");
